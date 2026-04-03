@@ -1,1 +1,10 @@
 .mcp.json
+
+# Archivos con credenciales/secrets
+.workflow.json
+fix_system_prompt_audio.js
+fix_system_prompt_images.js
+mocha_payload.json
+mocha_wf.json
+new_config_jscode.json
+wf_nodes.json

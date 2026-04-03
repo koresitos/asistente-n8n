@@ -1,0 +1,3 @@
+[    1294ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3D%252Fsignin_passive%26feature%3Dpassive&dsh=S-1995679399%3A1774580309615683&hl=es-419&passive=true&service=youtube&uilel=3&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AT1y2_XR7Duib44NgwQE_O5TaXysjRUDvoSZ7liXq9jLNG6Oo96Nq7u36HvL3X6j8fQ1sVP19aAUKA:0
+[    2039ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://googleads.g.doubleclick.net/pagead/id:0
+[    3438ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://static.doubleclick.net/instream/ad_status.js:0

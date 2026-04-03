@@ -1,0 +1,25 @@
+- generic [ref=e2]:
+  - separator [ref=e3]
+  - iframe [ref=e8]:
+    - generic [ref=f2e2]:
+      - generic [ref=f2e3]:
+        - checkbox "No soy un robot" [ref=f2e7]
+        - generic [ref=f2e11]: No soy un robot
+      - generic [ref=f2e12]:
+        - generic [ref=f2e15]: reCAPTCHA
+        - generic [ref=f2e16]:
+          - link "Privacidad" [ref=f2e17] [cursor=pointer]:
+            - /url: https://www.google.com/intl/es-419/policies/privacy/
+          - text: "-"
+          - link "Condiciones" [ref=f2e18] [cursor=pointer]:
+            - /url: https://www.google.com/intl/es-419/policies/terms/
+  - separator [ref=e9]
+  - generic [ref=e10]:
+    - text: Acerca de esta página
+    - text: Nuestros sistemas han detectado tráfico inusual procedente de tu red de ordenadores. En esta página se comprueba si eres tú quien envía las solicitudes en lugar de un robot.
+    - link "¿A qué se debe esto?" [ref=e11] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=e12]:
+      - text: "Dirección IP: 2806:310:122:8740:61da:387c:4203:ff33"
+      - text: "Hora: 2026-03-27T02:58:18Z"
+      - text: "URL: https://www.google.com/search?q=youtube.com&sca_esv=e4342c588caf6531&source=hp&ei=KfLFabm5Cr20qtsPmJzPiA8&iflsig=AFdpzrgAAAAAacYAOWkyMNNFnwfsJ6ZuKbkorTlq6WL0&ved=0ahUKEwj58dLSir-TAxU9mmoFHRjOE_EQ4dUDCA0&uact=5&oq=youtube.com&gs_lp=Egdnd3Mtd2l6Igt5b3V0dWJlLmNvbTILEAAYgAQYsQMYgwEyBRAAGIAEMgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDILEAAYgAQYsQMYgwFIihNQAFgAcAB4AJABAJgBRaABRaoBATG4AQPIAQD4AQGYAgGgAk-YAwCSBwExoAeFB7IHATG4B0_CBwMyLTHIBweACAA&sclient=gws-wiz&sei=SvLFadPHDP-sqtsP37Hb0Qw"

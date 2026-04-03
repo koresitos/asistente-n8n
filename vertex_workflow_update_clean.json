@@ -1,0 +1,431 @@
+{
+  "name": "Social Media - 1. Generador de Contenido IA",
+  "settings": {
+    "executionOrder": "v1",
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "callerPolicy": "workflowsFromSameOwner",
+    "timezone": "America/Mexico_City"
+  },
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours"
+            }
+          ]
+        }
+      },
+      "id": "n1",
+      "name": "Cada Hora",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        304
+      ]
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1X0d9ACtDpTm1lxk_vRMIbH12ewEtPUCKPkovO_jdZtU",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "0",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "id": "n2",
+      "name": "Leer Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        224,
+        304
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Hinq1zvIUfOScFkQ",
+          "name": "Google Sheets account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst filtered = items.filter(i => i.json.Estado === 'Generar');\nif (filtered.length === 0) return [];\nreturn filtered.map((item, idx) => ({\n  json: {\n    ...item.json,\n    ID: 'POST-' + Date.now() + '-' + idx,\n    Fecha_Generacion: new Date().toISOString()\n  }\n}));"
+      },
+      "id": "n3",
+      "name": "Filtrar y Asignar ID",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        448,
+        304
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst brand = {\n  empresa: \"Xore\",\n  tagline: \"Impulsa tu negocio con IA\",\n  descripcion: \"Empresa mexicana de automatización con IA: chatbots, workflows inteligentes y optimización de procesos para negocios.\",\n  tono: \"Profesional, directo, confiable. Sin hipérboles ni lenguaje informal.\",\n  paleta: \"Solo escala de grises: negro, gris carbón (#636363), gris medio (#999), blanco. NUNCA colores vibrantes.\",\n  estilo_visual: \"Minimalista, monocromático. Fondo gris carbón oscuro o negro. Texto blanco. Espacio negativo abundante. Formas geométricas limpias.\",\n  referencias_estilo: \"respond.io, Notion, Linear — minimalismo B2B tech\"\n};\nreturn items.map(item => ({ json: { ...item.json, brand } }));",
+        "mode": "runOnceForAllItems"
+      },
+      "id": "n_brand",
+      "name": "Brand Config Xore",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        672,
+        304
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "chat",
+        "chatModel": "gpt-4o",
+        "prompt": {
+          "messages": [
+            {
+              "role": "system",
+              "content": "Eres el redactor de contenido de Xore (xore.com.mx), empresa mexicana de automatización con inteligencia artificial — chatbots, workflows inteligentes y optimización de procesos para negocios.\n\n## Voz y tono\n- Profesional y directo. Sin exclamaciones ni lenguaje cheerful.\n- Confiable y experto, nunca genérico.\n- Cercano para el mercado mexicano B2B.\n- Tagline: \"Impulsa tu negocio con IA\"\n\n## Formato del caption\n- Idioma: español\n- Longitud: 3 a 5 oraciones concisas, sin relleno\n- Emojis: máximo 1 o 2, solo si refuerzan el mensaje. Preferir ninguno en temas técnicos.\n- Estructura: insight o problema directo → propuesta de valor de Xore → CTA corto\n- Hashtags: 3 a 4, mezclando español e inglés: #AutomatizaciónIA #Chatbots #TransformaciónDigital #Xore (variar por tema)\n- EVITAR: \"¿Sabías que...?\", \"En el mundo actual\", \"La IA está revolucionando\", cualquier cliché de marketing genérico"
+            },
+            {
+              "content": "={{ 'Crea un caption para una publicación sobre: ' + $json.Tema }}"
+            }
+          ]
+        },
+        "options": {
+          "maxTokens": 600
+        },
+        "requestOptions": {}
+      },
+      "id": "n4",
+      "name": "GPT-4 Caption",
+      "type": "n8n-nodes-base.openAi",
+      "typeVersion": 1.1,
+      "position": [
+        896,
+        304
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "ygGLz97gkFj8HpaV",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "id": "n_visual",
+      "name": "GPT Diseñador Visual",
+      "type": "n8n-nodes-base.openAi",
+      "typeVersion": 1.1,
+      "position": [
+        1120,
+        304
+      ],
+      "parameters": {
+        "resource": "chat",
+        "chatModel": "gpt-4o-mini",
+        "prompt": {
+          "messages": [
+            {
+              "role": "system",
+              "content": "Eres un director creativo especializado en diseño gráfico minimalista para redes sociales B2B tech.\nTu tarea: transformar un tema de negocio en una descripción visual concreta para generar una imagen con IA.\n\nREGLAS DE DISEÑO (marca Xore — siempre aplicar):\n- Fondo negro puro o gris carbón muy oscuro\n- Paleta ESTRICTA: solo negro, gris oscuro, gris claro, blanco. CERO colores\n- Estilo: ilustración digital 2D plana, minimalista, NO renders 3D ni fotorrealismo\n- Máximo 2-3 elementos visuales principales, mucho espacio vacío\n- Si incluye texto: máximo 6 palabras cortas, tipografía bold sans-serif blanca, legible\n- Sin decoraciones innecesarias\n\nResponde ÚNICAMENTE con el prompt visual en inglés (máximo 100 palabras), listo para Vertex AI Imagen.\nDescribe: elemento visual central, composición, paleta, si incluye texto y cuál."
+            },
+            {
+              "content": "={{ 'Diseña la imagen para este tema: ' + $json.Tema }}"
+            }
+          ]
+        },
+        "options": {
+          "maxTokens": 200
+        },
+        "requestOptions": {}
+      },
+      "credentials": {
+        "openAiApi": {
+          "id": "ygGLz97gkFj8HpaV",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "id": "n_auth_jwt",
+      "name": "Obtener Token Vertex AI",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1344,
+        304
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const items = $input.all();\n\nconst clientEmail = $env.VERTEX_CLIENT_EMAIL;\nlet privateKey = $env.VERTEX_PRIVATE_KEY;\nprivateKey = privateKey.split('\\\\n').join('\\n');\n\nconst now = Math.floor(Date.now() / 1000);\nconst payload = {\n  iss: clientEmail,\n  scope: 'https://www.googleapis.com/auth/cloud-platform',\n  aud: 'https://oauth2.googleapis.com/token',\n  exp: now + 3600,\n  iat: now\n};\n\nfunction base64url(obj) {\n  const str = typeof obj === 'string' ? obj : JSON.stringify(obj);\n  return Buffer.from(str).toString('base64')\n    .replace(/=/g, '').replace(/\\+/g, '-').replace(/\\//g, '_');\n}\n\nconst header = { alg: 'RS256', typ: 'JWT' };\nconst signingInput = base64url(header) + '.' + base64url(payload);\n\nconst crypto = require('crypto');\nconst sign = crypto.createSign('RSA-SHA256');\nsign.update(signingInput);\nconst signature = sign.sign(privateKey, 'base64')\n  .replace(/=/g, '').replace(/\\+/g, '-').replace(/\\//g, '_');\n\nconst jwt = signingInput + '.' + signature;\n\nconst tokenResponse = await this.helpers.httpRequest({\n  method: 'POST',\n  url: 'https://oauth2.googleapis.com/token',\n  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },\n  body: `grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=${jwt}`\n});\n\nreturn items.map(item => ({ json: { ...item.json, accessToken: tokenResponse.access_token } }));"
+      }
+    },
+    {
+      "id": "n_vertex",
+      "name": "Vertex AI Imagen 3",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1568,
+        304
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=https://us-central1-aiplatform.googleapis.com/v1/projects/{{ $env.VERTEX_PROJECT_ID }}/locations/us-central1/publishers/google/models/imagen-3.0-generate-002:predict",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + $json.accessToken }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify({ instances: [{ prompt: $('GPT Diseñador Visual').item.json.content || $('GPT Diseñador Visual').item.json.message.content }], parameters: { sampleCount: 1, aspectRatio: '1:1' } }) }}",
+        "options": {}
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const dalleItems = $input.all();\nreturn dalleItems.map((item, i) => {\n  const original = $('Filtrar y Asignar ID').all()[i].json;\n  const captionNode = $('GPT-4 Caption').all()[i].json;\n  const caption = captionNode.content || captionNode.message?.content || '';\n  const imageBase64 = (item.json.predictions && item.json.predictions[0] && item.json.predictions[0].bytesBase64Encoded) || '';\n  return {\n    json: {\n      ID: original.ID,\n      Tema: original.Tema,\n      Caption: caption,\n      dalleUrl: imageBase64,\n      Fecha_Generacion: original.Fecha_Generacion\n    }\n  };\n});"
+      },
+      "id": "n6",
+      "name": "Ensamblar Datos",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1792,
+        304
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.imgbb.com/1/upload",
+        "sendBody": true,
+        "contentType": "form-urlencoded",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "key",
+              "value": "=1fe55886f29436e3afc4ef143cfb6c7b"
+            },
+            {
+              "name": "image",
+              "value": "={{ $json.dalleUrl }}"
+            },
+            {
+              "name": "expiration",
+              "value": "0"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "n7",
+      "name": "Subir a imgbb",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2016,
+        304
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nreturn items.map((item, i) => {\n  const assembled = $('Ensamblar Datos').all()[i].json;\n  const imgbbUrl = item.json.data && item.json.data.url ? item.json.data.url : '';\n  return {\n    json: {\n      ID: assembled.ID,\n      Tema: assembled.Tema,\n      Caption: assembled.Caption,\n      Imagen_URL: imgbbUrl,\n      Estado: imgbbUrl ? 'Pendiente' : 'Error',\n      Fecha_Generacion: assembled.Fecha_Generacion,\n      Notas: imgbbUrl ? '' : 'Error al subir imagen a imgbb'\n    }\n  };\n});"
+      },
+      "id": "n8",
+      "name": "Preparar Update Sheets",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2240,
+        304
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "1X0d9ACtDpTm1lxk_vRMIbH12ewEtPUCKPkovO_jdZtU"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "0",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Tema": "={{ $json.Tema }}",
+            "ID": "={{ $json.ID }}",
+            "Caption": "={{ $json.Caption }}",
+            "Imagen_URL": "={{ $json.Imagen_URL }}",
+            "Estado": "={{ $json.Estado }}",
+            "Fecha_Generacion": "={{ $json.Fecha_Generacion }}",
+            "Notas": "={{ $json.Notas }}"
+          },
+          "matchingColumns": [
+            "Tema"
+          ],
+          "schema": []
+        },
+        "options": {}
+      },
+      "id": "n9",
+      "name": "Actualizar Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2464,
+        304
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Hinq1zvIUfOScFkQ",
+          "name": "Google Sheets account 2"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Cada Hora": {
+      "main": [
+        [
+          {
+            "node": "Leer Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Leer Google Sheets": {
+      "main": [
+        [
+          {
+            "node": "Filtrar y Asignar ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filtrar y Asignar ID": {
+      "main": [
+        [
+          {
+            "node": "Brand Config Xore",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Brand Config Xore": {
+      "main": [
+        [
+          {
+            "node": "GPT-4 Caption",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GPT-4 Caption": {
+      "main": [
+        [
+          {
+            "node": "GPT Diseñador Visual",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GPT Diseñador Visual": {
+      "main": [
+        [
+          {
+            "node": "Obtener Token Vertex AI",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Obtener Token Vertex AI": {
+      "main": [
+        [
+          {
+            "node": "Vertex AI Imagen 3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Vertex AI Imagen 3": {
+      "main": [
+        [
+          {
+            "node": "Ensamblar Datos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ensamblar Datos": {
+      "main": [
+        [
+          {
+            "node": "Subir a imgbb",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Subir a imgbb": {
+      "main": [
+        [
+          {
+            "node": "Preparar Update Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar Update Sheets": {
+      "main": [
+        [
+          {
+            "node": "Actualizar Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

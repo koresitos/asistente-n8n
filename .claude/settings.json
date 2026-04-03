@@ -1,0 +1,8 @@
+{
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true
+  },
+  "env": {
+    "FIRECRAWL_API_KEY": "fc-97533d2b23b141ae83e0bc9fe999cc8f"
+  }
+}

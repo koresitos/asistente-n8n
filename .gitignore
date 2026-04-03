@@ -8,3 +8,10 @@ mocha_payload.json
 mocha_wf.json
 new_config_jscode.json
 wf_nodes.json
+
+# Archivos temporales de trabajo
+_*.txt
+_*.json
+fixed_*.txt
+fixed_*.json
+update_payload.json

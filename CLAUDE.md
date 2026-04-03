@@ -245,6 +245,261 @@
 | `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
 
 ----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
+| `DDA20bImFAoJSxi-LnUrY` | Generador de Videos Virales + Copies IA + Publicación Auto | inactivo |
+| `hZXD9dIkPfzVLa6B` | Digest de Noticias de IA - Lunes 9AM | inactivo |
+| `uUwqRiTL1vnjIkTe` | Asistente Estética - Principal | inactivo |
+| `dnqgQ0Zunlw6jFne` | Asistente Estética - Recordatorios 24h | inactivo |
+| `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |
+| `u9OhPxcYeMiqk1RAFVjQG` | Asistente WhatsApp — Mocha's Place 1.0 | inactivo |
+| `g_dopkojL6AfM5SmvZRH_` | Clínica Dental - Recepcionista WhatsApp | inactivo |
+| `jsH_fRKUTfdReiJqcot-v` | Clínica Dental - Recordatorios Automáticos | inactivo |
+| `AsGs0e_AZdB_O9aYg67n5` | Email Scrapper | inactivo |
+| `O7wrk5Pbw0oVrJsi` | Email Scrapper USA | inactivo |
+| `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
+| `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
+| `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
+| `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+
+----|--------|--------|
 | `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
 | `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
 | `fxRyp6etIlFVCjxY` | Asistente WhatsApp — Mocha's Place | **activo** |

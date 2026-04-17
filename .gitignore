@@ -15,3 +15,5 @@ _*.json
 fixed_*.txt
 fixed_*.json
 update_payload.json
+tmp_*.js
+tmp_*.json

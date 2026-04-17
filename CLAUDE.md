@@ -5,7 +5,8 @@
 
 ## Instancia n8n
 - Self-hosted Docker en EasyPanel
-- URL y API Key configuradas en .mcp.json
+- **URL:** `https://proyecto-prueba1-n8n.jzw5jm.easypanel.host`
+- **API Key:** `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiYzQ1OGMxYS05MzliLTQzNDUtOTFkZi1jNWIzNjE1ODE0ZmQiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwianRpIjoiNmE1NjI0OWMtOTYzOS00NDc3LWI0NzUtNjA3YWZlYjlhNTU0IiwiaWF0IjoxNzcxMzcyNDc1fQ.5S-1bcZW1dygY4E6hLGgvYRJupkp2QqhNvuVOC3edTk`
 - Nombres de nodos y propiedades en inglés tal como aparecen en la plataforma
 
 ## Buenas prácticas
@@ -24,6 +25,22 @@
 - `addConnection` guarda `type:"0"` en vez de `"main"` → usar `n8n_update_full_workflow` para conexiones
 - Identificar nodos por `nodeId`, no por `name`
 - Archivos locales de workflow (`.json`) solo como backup — nunca como fuente de verdad en el flujo de trabajo
+
+### REST API directa (cuando MCP falla o no alcanza)
+```js
+const hostname = 'proyecto-prueba1-n8n.jzw5jm.easypanel.host';
+const key = '<API Key de arriba>';
+// GET:  GET  /api/v1/workflows/{id}
+// PUT:  PUT  /api/v1/workflows/{id}
+//       payload MÍNIMO: { name, nodes, connections, settings: {} }
+//       IMPORTANTE: settings con campos extra devuelve 400 — pasar siempre {}
+//       tags: si se incluyen, solo [{ id }] — sin name ni otros campos
+```
+
+### n8n_get_workflow — resultados grandes
+- Usar `mode: 'structure'` primero para mapear nodos sin cargar el código
+- Si el resultado excede tokens: guardar en archivo con Node.js, extraer solo el nodo necesario con `wf.data.nodes.find(n => n.name === '...')`
+- Guardar jsCode de nodos grandes en archivo temporal, trabajar localmente, luego subir vía REST API
 
 ### $env y variables
 - `$env.*` bloqueado en Code nodes por sandbox → agregar vars a `N8N_RUNNERS_ALLOW_LIST_ENV_VARS` en EasyPanel
@@ -49,6 +66,7 @@
 ### Google Sheets
 - `update` con expresiones falla → usar `appendOrUpdate` con `matchingColumns`
 - read (v4.7): requiere `resource:"sheet"`, `operation:"read"`, `range:"A:Z"`
+- Schema del nodo se desactualiza si se agregan columnas al sheet → refrescar schema en "Column to Match On"
 
 ### Memoria conversacional (EasyPanel)
 - `memoryBufferWindow` no persiste entre webhooks → usar `$getWorkflowStaticData('global')`
@@ -73,6 +91,7 @@
 | `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
 | `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
 | `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
+| `Bi9HihguCZz1ewfR` | Xore Video → Instagram Reel | inactivo |
 
 ### pairedItem
 - Code nodes que crean items nuevos rompen la cadena → propagar campos clave en todos los returns

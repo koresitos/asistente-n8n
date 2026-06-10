@@ -89,9 +89,12 @@ const key = '<API Key de arriba>';
 | `tUrzZ1WELViyBJ6W` | Email Sender USA | inactivo |
 | `loR9zU0ctD0rFYsfR65tG` | Envio de correos automatico | inactivo |
 | `_m4cHloVhSHCTcwwawoJS` | Gestor de Redes Sociales | inactivo |
+| `6aAPl8igJ1EerIiP` | Mochas Place - Stats Publicaciones Organicas | inactivo |
+| `X5fva4dhzOciDeam` | Mochas Place - Stats Publicaciones Organicas | inactivo |
 | `6ylMMPFQwEEpUOw1` | Social Media - 1. Generador de Contenido IA | inactivo |
 | `RXgfuybxkvJoIVYf` | Social Media - 2. Publicador Automático | inactivo |
-| `Bi9HihguCZz1ewfR` | Xore Video → Instagram Reel | inactivo |
+| `eeEzPspafuaNNLCz` | Supabase Keep Alive | **activo** |
+| `Bi9HihguCZz1ewfR` | Xore Video → Instagram Reel | **activo** |
 
 ### pairedItem
 - Code nodes que crean items nuevos rompen la cadena → propagar campos clave en todos los returns
